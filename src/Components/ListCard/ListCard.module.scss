@@ -1,0 +1,98 @@
+.wrapper {
+  width: 426px;
+  height: 950px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #E1E8EE;
+  padding: 0 16px;
+
+  .defaultButton{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #878489;
+    letter-spacing: 0.01em;
+    width: 65px;
+    height: 20px;
+  }
+
+  .activeButton{
+    width: 90px;
+    height: 24px;
+    color: #3071F0;
+    border: 2px solid #FFFFFF;
+    border-bottom-color: #3071F0;
+  }
+
+  header {
+    text-align: center;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #292D31;
+  }
+
+  .wrapperList {
+    padding: 16px 12px;
+    gap: 8px;
+    z-index: 0;
+    width: 394px;
+    height: 812px;
+    border-radius: 16px;
+    border: 1px solid #E1E8EE;
+    background: #F0F2F8
+  }
+
+  .buttonBox{
+    position: relative;
+    bottom: 75px;
+    width: 418px;
+    height: 76px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 0 0 16px 16px ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttonAdd{
+    width: 123.33px;
+    height: 44px;
+    background: #3071F0;
+    border-radius: 16px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    border-color: #3071F0;
+  }
+
+  .buttonEdit{
+    width: 123.33px;
+    height: 44px;
+    border-radius: 16px;
+    border-color: #3071F0;
+    color: #3071F0;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .buttonDelete{
+    width: 123.33px;
+    height: 44px;
+    border-radius: 16px;
+    border-color: #EB5757;
+    color: #FFFFFF;
+    background: #EB5757;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+

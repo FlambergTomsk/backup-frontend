@@ -1,0 +1,34 @@
+.card{
+  border: 1px solid #E1E8EE;
+  border-radius: 8px;
+  width: 370px;
+  height: 100px;
+  padding: 12px;
+  margin-bottom: 17px;
+  background: #FFFFFF;
+
+  h1{
+    margin-top: 4px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 336px;
+    height: 20px;
+    gap: 4px;
+    letter-spacing: 0.01em;
+    color: #292D31
+  }
+
+  p{
+    margin-top: 14px;
+    margin-bottom: 0px;
+    width: 336px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #292D31
+  }
+}
